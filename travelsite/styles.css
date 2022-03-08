@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif, canada-type-gibson,sans-serif;
+    font-size: 14px;
+    background-image: url(portfolioimages/bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 17px;
+    top: 0px;
+    margin-left: -39px;
+    margin-top: -147px;
+    float: left;
+    }
+
+header {
+    width: 840px;
+    height: 230px;
+	background-image: url("taiwanheaderpic.png");
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 300px;
+    padding-left: 80px;
+    text-align: justify;	
+}
+#container {
+    width: 783px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(255,255,255,1.00)
+}
+
+li{
+    float: right;
+    margin-left: -15px;
+    margin-right: 55px;
+    border-width: 0px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+ul, ol{
+    margin-top: 12px;
+    margin-right: 158px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding-right: 0px;
+    width: 245px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+p{
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 400;
+	padding-right: 0px;}
+
+h3 {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/*Float the Aside so it displays next to the main.*/
+
+
+
+h1{
+    color: rgba(255,53,57,1.00);
+    font-family: politica,san-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+    float: left;
+    margin-left: 154px;
+	height:auto;
+}
+
+.floatleft{
+	float: left;
+}
+
+article {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line header.*/
+main {
+    width: 598px;
+    height: 1400px;
+    float: left;
+    padding-top: 59px;
+    padding-right: 130px;
+    padding-bottom: 130px;
+    padding-left: 223px;
+    color: rgba(0,0,0,1.00);
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    background-color: rgba(118,118,118,1.00);
+
+}
+
+nav {
+    width: 768px;
+    height: 50px;
+	vertical-align: middle;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: right;
+    width: 80px;
+    margin-right: -44px;
+    font-family: neonoir, sans-serif;
+    font-size: 18pt;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 100px;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+	color: rgba(255,53,57,1.00);
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: rgba(142,44,190,1);
+}
+nav a:hover {
+    text-decoration: none;
+	color: #FFFFFF;
+	background-color: rgba(255, 53, 57, 1.00);
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: rgba(118,118,118,1);
+    font-size: 18pt;
+}
+
+
+img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    float:right;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+
+.submit_btn {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(255,53,57,1.00);
+    color: rgba(248,248,248,1.00);
+    font-style: 25px;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+    box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+}
+aside{
+    width: 120px;
+    height: 182px;
+    background-color: black;
+    float: left;
+    margin: auto;
+}
